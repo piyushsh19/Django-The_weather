@@ -30,6 +30,11 @@ $ source virtualenv_name/Scripts/activate
 pip freeze > requirements.txt
 ```
 
+# run migration 
+```bash
+$ python manage.py migrate
+```
+
 # run main file 
 ```bash
 $ python main.py
@@ -37,12 +42,6 @@ $ python main.py
 
 *Note  : Make sure you cd into the *clone* folder before performing the command above.*
 
-
-Contributing
-------------
-
-1. Fork the repository, make your changes, and add yourself to [AUTHORS.md](AUTHORS.md)
-2. Send a pull request
 
 Stack
 ------
